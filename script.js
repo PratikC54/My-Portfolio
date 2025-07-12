@@ -1,3 +1,5 @@
+alert("Remove all the extensions from your browser before running this code for better colour accuracy.");
+
 // Theme Toggle Functionality
 const themeToggle = document.getElementById('theme-switch');
 const body = document.body;
