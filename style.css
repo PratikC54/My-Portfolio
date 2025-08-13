@@ -308,6 +308,16 @@ html {
     transform: translateY(-2px);
 }
 
+.btn-tertiary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid var(--text-primary);
+}
+.btn-tertiary:hover {
+    background: var(--text-primary);
+    color:#f8fafc;
+}
+
 .hero-image {
     animation: slideInRight 1s ease-out;
     display: flex;
