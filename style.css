@@ -306,6 +306,7 @@ html {
     background: var(--primary-color);
     color: white;
     transform: translateY(-2px);
+    letter-spacing: 0.25em;
 }
 
 .btn-tertiary {
@@ -315,7 +316,8 @@ html {
 }
 .btn-tertiary:hover {
     background: var(--text-primary);
-    color:#f8fafc;
+    color: rgb(143, 90, 90);
+    transform: translateY(-2px);
 }
 
 .hero-image {
